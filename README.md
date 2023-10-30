@@ -3,7 +3,7 @@
 ```sh
 # 打 tag 并上传到 github
 git tag -a 0.0.1 -m "init"
-git push origin .0.0.1
+git push origin 0.0.1
 
 # 创建 podspec 文件
 pod spec create TestCaseCollector
