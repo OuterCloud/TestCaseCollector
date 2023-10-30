@@ -30,6 +30,7 @@
 		CB77303F2AEF6E4C000F0C43 /* TestCaseCollector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCaseCollector.m; sourceTree = "<group>"; };
 		CB7730472AEF7724000F0C43 /* TestCaseCollector.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TestCaseCollector.podspec; sourceTree = "<group>"; };
 		CB7730482AEF7737000F0C43 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CB7730492AEF79FC000F0C43 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +47,7 @@
 		CB7730322AEF6E4C000F0C43 = {
 			isa = PBXGroup;
 			children = (
+				CB7730492AEF79FC000F0C43 /* LICENSE */,
 				CB7730482AEF7737000F0C43 /* README.md */,
 				CB7730472AEF7724000F0C43 /* TestCaseCollector.podspec */,
 				CB77303D2AEF6E4C000F0C43 /* TestCaseCollector */,
