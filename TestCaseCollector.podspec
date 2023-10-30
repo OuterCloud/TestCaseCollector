@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/TestCaseCollector"
+  spec.homepage     = "https://github.com/OuterCloud/TestCaseCollector"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -52,9 +52,9 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "tianyou.lan" => "tianyou.lan@jiduauto.com" }
+  spec.author             = "tianyou.lan"
   # Or just: spec.author    = "tianyou.lan"
-  # spec.authors            = { "tianyou.lan" => "tianyou.lan@jiduauto.com" }
+  # spec.authors            = { "tianyou.lan" => "email_address@xxx.com" }
   # spec.social_media_url   = "https://twitter.com/tianyou.lan"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
