@@ -25,6 +25,8 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+  A case-information-collect tool.
+  It is used for collecting the information of the test cases.
                    DESC
 
   spec.homepage     = "https://github.com/OuterCloud/TestCaseCollector"
@@ -38,7 +40,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -79,7 +81,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/TestCaseCollector.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/OuterCloud/TestCaseCollector.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
