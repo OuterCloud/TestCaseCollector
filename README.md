@@ -16,6 +16,9 @@ pod spec lint TestCaseCollector.podspec
 # 邮箱验证(一次就好)
 pod trunk register runcheck1@163.com "tianyou.lan"
 
+# 删除老版本(重新上传时用)
+pod trunk delete TestCaseCollector {spec.version}
+
 # 上传到 cocoapods
 pod trunk push TestCaseCollector.podspec
 ```
