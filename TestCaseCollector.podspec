@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TestCaseCollector"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "Collect the information of the test cases."
 
   # This description is used to generate tags and improve search results.
